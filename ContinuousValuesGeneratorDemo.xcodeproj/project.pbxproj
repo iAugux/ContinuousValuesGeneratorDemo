@@ -12,6 +12,8 @@
 		B1FF3D711D3B60DD00DBA41B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1FF3D6F1D3B60DD00DBA41B /* Main.storyboard */; };
 		B1FF3D731D3B60DD00DBA41B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1FF3D721D3B60DD00DBA41B /* Assets.xcassets */; };
 		B1FF3D761D3B60DD00DBA41B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1FF3D741D3B60DD00DBA41B /* LaunchScreen.storyboard */; };
+		B1FF3D801D3B612800DBA41B /* Arithmetic+Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FF3D7E1D3B612800DBA41B /* Arithmetic+Protocol.swift */; };
+		B1FF3D811D3B612800DBA41B /* ContinuousValuesGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FF3D7F1D3B612800DBA41B /* ContinuousValuesGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		B1FF3D721D3B60DD00DBA41B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1FF3D751D3B60DD00DBA41B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1FF3D771D3B60DD00DBA41B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1FF3D7E1D3B612800DBA41B /* Arithmetic+Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Arithmetic+Protocol.swift"; sourceTree = "<group>"; };
+		B1FF3D7F1D3B612800DBA41B /* ContinuousValuesGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContinuousValuesGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,7 @@
 		B1FF3D5F1D3B60DD00DBA41B = {
 			isa = PBXGroup;
 			children = (
+				B1FF3D7D1D3B612800DBA41B /* ContinuousValuesGenerator */,
 				B1FF3D6A1D3B60DD00DBA41B /* ContinuousValuesGeneratorDemo */,
 				B1FF3D691D3B60DD00DBA41B /* Products */,
 			);
@@ -62,6 +67,16 @@
 				B1FF3D771D3B60DD00DBA41B /* Info.plist */,
 			);
 			path = ContinuousValuesGeneratorDemo;
+			sourceTree = "<group>";
+		};
+		B1FF3D7D1D3B612800DBA41B /* ContinuousValuesGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				B1FF3D7E1D3B612800DBA41B /* Arithmetic+Protocol.swift */,
+				B1FF3D7F1D3B612800DBA41B /* ContinuousValuesGenerator.swift */,
+			);
+			name = ContinuousValuesGenerator;
+			path = ContinuousValuesGeneratorDemo/ContinuousValuesGenerator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +153,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1FF3D811D3B612800DBA41B /* ContinuousValuesGenerator.swift in Sources */,
+				B1FF3D801D3B612800DBA41B /* Arithmetic+Protocol.swift in Sources */,
 				B1FF3D6E1D3B60DD00DBA41B /* ViewController.swift in Sources */,
 				B1FF3D6C1D3B60DD00DBA41B /* AppDelegate.swift in Sources */,
 			);
